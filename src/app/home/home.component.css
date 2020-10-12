@@ -1,27 +1,17 @@
-.inner1 img{
+.carousel-inner img{
     min-height: 30em;
     max-height: 35em;
 }
 .carousel-caption{
   padding-bottom:12em;
 }
-@media only screen and (max-width: 800px) {
-  h2{
-    font-size:1.5em; 
-    font-weight: bold;
-    font-family: 'Merienda', cursive;
-  }
-  .carousel-caption{
-    padding-bottom:5em;
-  }
-}
 h2{
-  font-size:2.6em; 
+  font-size:2.5em; 
   font-weight: bold;
   font-family: 'Merienda', cursive;
 }
 @media only screen and (min-width: 1080px) {
-  .inner1 img{
+  .carousel-inner img{
     width: 100%;
     min-height: 45em;
 }
@@ -94,18 +84,12 @@ font-family: 'Arial';
 .business-block{
   padding: 0%;
 }
-.carousel1{
-  padding-bottom: 2.5em;
+.carousel{
+  padding-bottom: 10em;
 }
 @media only screen and (min-width: 600px) {
   .container1{
     padding-left: 20%;
     padding-right: 20%;
   }
-}
-.inner2 img{
-  min-width: 0.10em;
-  max-width: 9em;
-  min-height: 0.10em;
-  max-height: 9em;
 }
